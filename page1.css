@@ -1,0 +1,89 @@
+.flex{
+    display:flex;
+    flex-direction:row;
+}
+
+.flex-item{
+    height:200px;
+    margin:10px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 2em;
+    color: black;
+    flex:1;
+}
+
+.flex-1{
+    justify-content: space-evenly;
+}
+
+.flex-2{
+    justify-content: space-between;
+}
+
+.flex-3{
+    justify-content: center;
+}
+
+.flex-4{
+    justify-content: space-around;
+}
+
+.flex-5{
+    justify-content: flex-end;
+}
+
+.flex-6{
+    justify-content: flex-start;
+}
+
+.bigger-2x{
+    flex:2;
+}
+
+.tan{
+    background-color: tan;
+    flex: .33;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.red{
+    background-color: lightcoral;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.green-split{
+    flex: .33;
+}
+
+.gray{
+    background-color: slategray;
+    flex: .25;
+    justify-content: center;
+}
+
+.sea-green{
+    background-color: seagreen;
+    flex: .16;
+}
+
+.yellow{
+    background-color: yellow;
+    flex:.25;
+}
+
+.last{
+    margin-left: auto;
+}
